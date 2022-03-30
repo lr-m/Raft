@@ -24,6 +24,10 @@ Note: It is easiest to get the project up and running with a Linux machine.
 3. Run ```python3 raft_interface.py```.
 4. Wait for build to complete; a window with the Raft algorithm interface should show up.
 
+### Example
+
+<img src="https://user-images.githubusercontent.com/47477832/160909435-60fa1330-8115-4971-8584-d929e07b44f6.png" width="700">
+
 ## Implementation Details
 
 This section details some of the main inner workings of the C++ code to make it easier to understand.
