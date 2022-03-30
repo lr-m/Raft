@@ -24,28 +24,7 @@ Note: It is easiest to get the project up and running with a Linux machine.
 3. Run ```python3 raft_interface.py```.
 4. Wait for build to complete; a window with the Raft algorithm interface should show up.
 
-## Resources
-**In Search of an Understandable Consensus Algorithm (Extended Version)** https://raft.github.io/raft.pdf (The Main Paper)
-
-**The Implementation of Raft by the Paper Authors** https://github.com/logcabin/logcabin (specifically https://github.com/logcabin/logcabin/blob/master/Server/RaftConsensus.cc)
-
-**Paxos Made Simple** https://lamport.azurewebsites.net/pubs/paxos-simple.pdf
-
-**Planning for Change in a Formal Verification of the Raft Consensus Protocol** https://dl.acm.org/doi/pdf/10.1145/2854065.2854081
-\[ We present the first formal verification of state machine safety for the Raft consensus protocol, a critical component of many distributed systems. \]
-
-**Raft Refloated: Do We Have Consensus?** https://dl.acm.org/doi/pdf/10.1145/2723872.2723876
-\[ In this study, we repeat the Raft authors’ performance analysis. We developed a clean-slate implementation of the Raft protocol and built an event-driven simulation framework for prototyping it on experimental topologies. We propose several optimizations to the Raft protocol and demonstrate their effectiveness under contention. Finally, we empirically validate the correctness of the Raft protocol invariants and evaluate Raft’s understandability claims. \]
-
-**Reducing the Energy Footprint of a Distributed Consensus Algorithm** https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7371967
-
-**Tangaroa: a Byzantine Fault Tolerant Raft** https://www.scs.stanford.edu/14au-cs244b/labs/projects/copeland_zhong.pdf
-
-**Paxos vs Raft: Have we reached consensus on distributed consensus?** https://dl.acm.org/doi/pdf/10.1145/3380787.3393681
-
-**Flotsam: Evaluating Implementations of the Raft Consensus Algorithm** https://connorgilbert.com/papers/flotsam.pdf \[ This work presents a system, Flotsam, for empirically testing Raft open-source implementations for errors. Randomized test cases are generated and tested in a virtualized environment based on Docker. Test operations are specified using a general interface to allow new implementations to be simply “plugged in”, and outputs are checked against each other using configurable criteria after injecting. \]
-
-## C++ Implementation Details
+## Implementation Details
 
 This section details some of the main inner workings of the C++ code to make it easier to understand.
 
