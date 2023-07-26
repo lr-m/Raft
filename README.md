@@ -5,8 +5,8 @@ Implementation of the Raft Consensus Algorithm
 https://raft.github.io/raft.pdf
 
 ## Useful Visualisation
-Interactive, good intro - http://thesecretlivesofdata.com/raft/
-General, useful reference - https://raft.github.io/
+- [Interactive, good intro](http://thesecretlivesofdata.com/raft/)
+- [General, useful reference](https://raft.github.io/)
 
 ## Running Instructions - Python
 
